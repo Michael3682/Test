@@ -35,6 +35,8 @@ noBtn.addEventListener("mouseover", () => {
   }
   else if (size == 13) {
     noBtn.hidden = true
+    yesBtn.style.marginLeft = 0
+    yesBtn.style.width = 400 + "px"
   }
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
