@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Aaaaa, I like you too";
+  question.innerHTML = "I like you too";
   gif.src = "https://em-content.zobj.net/source/animated-noto-color-emoji/356/smiling-face-with-hearts_1f970.gif";
   noBtn.hidden = true
   question.style.color = "#e94d58"
