@@ -14,6 +14,7 @@ yesBtn.addEventListener("click", () => {
   
   if (size == 10) {
     alert("Naa raman diay na")
+    size++
   }
 });
 let size = 0
