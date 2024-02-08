@@ -12,7 +12,7 @@ yesBtn.addEventListener("click", () => {
   yesBtn.style.background = "#e94d58"
   yesBtn.style.border = "#e94d58"
   
-  if (size == 10) {
+  if (size == 13) {
     alert("Naa raman diay na")
     size++
   }
@@ -33,7 +33,7 @@ noBtn.addEventListener("mouseover", () => {
   else if (size == 8) {
     alert("Ge lang kay delete koning No button")
   }
-  else if (size == 10) {
+  else if (size == 13) {
     noBtn.hidden = true
   }
   noBtn.style.left = randomX + "px";
