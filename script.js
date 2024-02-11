@@ -11,11 +11,6 @@ yesBtn.addEventListener("click", () => {
   question.style.color = "#e94d58"
   yesBtn.style.background = "#e94d58"
   yesBtn.style.border = "#e94d58"
-  
-  if (size == 13) {
-    alert("Naa raman diay na")
-    size++
-  }
 });
 let size = 0
 noBtn.addEventListener("mouseover", () => {
@@ -26,14 +21,7 @@ noBtn.addEventListener("mouseover", () => {
   const randomY = Math.floor(Math.random() * maxY);
   size++
   let size2 = 150 / size
-  if (size == 5) {
-    alert("Di jud ka crush?")
-    alert("🥺")
-  }
-  else if (size == 8) {
-    alert("Ge lang kay delete koning No button")
-  }
-  else if (size == 13) {
+  if (size == 13) {
     noBtn.hidden = true
     yesBtn.style.marginLeft = 0
     yesBtn.style.width = 400 + "px"
